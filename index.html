@@ -4,17 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Play Hockey</title>
-    <!--tailwind daisy UI and flow-bite style related -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!--tailwind and daisy UI style related -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
       rel="stylesheet"
       type="text/css"
     />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
-      rel="stylesheet"
-    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- manrope google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,11 +31,6 @@
         },
       };
     </script>
-    <!-- font awesome link -->
-    <script
-      src="https://kit.fontawesome.com/88ad43cda1.js"
-      crossorigin="anonymous"
-    ></script>
     <!-- custom css style -->
     <style>
       .font-manrope {
@@ -49,7 +40,9 @@
   </head>
   <body class="font-manrope">
     <!-- header section -->
-    <header class="md:mx-auto lg:w-[1170px] w-full px-[20px] md:px-0 lg:pt-[58px]">
+    <header
+      class="md:mx-auto lg:w-[1170px] w-full px-[20px] md:px-0 lg:pt-[58px]"
+    >
       <!-- nav section related -->
       <nav class="bg-white border-gray-200 lg:p-0 py-2.5">
         <div
@@ -1600,8 +1593,118 @@
           </div>
         </div>
       </section>
+      <!-- Clients Question section -->
+      <div
+        class="mt-[40px] md:mt-[100px] mb-6 md:mb-12 p-[24px] md:p-[32px] text-center border-2 border-dashed border-r-0 border-l-0"
+      >
+        <h3
+          class="text-[22px] md:text-[36px] font-extrabold text-[#131318] pb-4 md:pb-6"
+        >
+          Clients Question
+        </h3>
+        <p
+          class="text-[rgba(19,19,24,0.60)] font-medium md:text-base text-[14px]"
+        >
+          Understanding clients' questions is crucial; clarity, empathy, and
+          precision ensure effective <br />
+          communication and successful outcomes.
+        </p>
+      </div>
+      <!-- FAQ with Accordion -->
+      <div class="hero h-auto rounded-2xl p-2 md:p-4 gap-6 md:gap-10 border-2">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="./Resources/Images/11.png" class="w-[287px] md:w-[441px] h-[180px] md:h-[470px] rounded-lg" />
+          <div>
+            <!-- Q-1 -->
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-[#131318] text-[20px] font-[700]">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p class="text-[rgba(19,19,24,0.60)] border-b pb-5 md:pb-6">
+                  Hockey is a fast-paced team sport played on ice, featuring
+                  skilled stick-handling, precise passing, and powerful shots,
+                  creating intense competition and excitement.
+                </p>
+              </div>
+            </div>
+            <!-- Q-2 -->
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-[#131318] text-[20px] font-[700]">
+                Hockey Training
+              </div>
+              <div class="collapse-content">
+                <p class="text-[rgba(19,19,24,0.60)] border-b pb-5 md:pb-6">
+                  Hockey is a fast-paced team sport played on ice, featuring
+                  skilled stick-handling, precise passing, and powerful shots,
+                  creating intense competition and excitement.
+                </p>
+              </div>
+            </div>
+            <!-- Q-3 -->
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-[#131318] text-[20px] font-[700]">
+                Private Lessons
+              </div>
+              <div class="collapse-content">
+                <p class="text-[rgba(19,19,24,0.60)] border-b pb-5 md:pb-6">
+                  Hockey is a fast-paced team sport played on ice, featuring
+                  skilled stick-handling, precise passing, and powerful shots,
+                  creating intense competition and excitement.
+                </p>
+              </div>
+            </div>
+            <!-- Q-4 -->
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-[#131318] text-[20px] font-[700]">
+                Ski Touring
+              </div>
+              <div class="collapse-content">
+                <p class="text-[rgba(19,19,24,0.60)] border-b pb-5 md:pb-6">
+                  Hockey is a fast-paced team sport played on ice, featuring
+                  skilled stick-handling, precise passing, and powerful shots,
+                  creating intense competition and excitement.
+                </p>
+              </div>
+            </div>
+            <!-- Q-5 -->
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-[#131318] text-[20px] font-[700]">
+                Booking
+              </div>
+              <div class="collapse-content">
+                <p class="text-[rgba(19,19,24,0.60)] border-b pb-5 md:pb-6">
+                  Hockey is a fast-paced team sport played on ice, featuring
+                  skilled stick-handling, precise passing, and powerful shots,
+                  creating intense competition and excitement.
+                </p>
+              </div>
+            </div>
+            <!-- Q-6 -->
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-[#131318] text-[20px] font-[700]">
+                Pricing
+              </div>
+              <div class="collapse-content">
+                <p class="text-[rgba(19,19,24,0.60)] border-b pb-5 md:pb-6">
+                  Hockey is a fast-paced team sport played on ice, featuring
+                  skilled stick-handling, precise passing, and powerful shots,
+                  creating intense competition and excitement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>
+  <!-- nav and banner section playing with flow-bite -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </html>
