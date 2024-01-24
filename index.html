@@ -36,6 +36,9 @@
       .font-manrope {
         font-family: "Manrope";
       }
+      /* ::-webkit-input-placeholder{
+        color: rgba(19, 19, 24, 0.30)
+      } */
     </style>
   </head>
   <body class="font-manrope">
@@ -1613,7 +1616,10 @@
       <!-- FAQ with Accordion -->
       <div class="hero h-auto rounded-2xl p-2 md:p-4 gap-6 md:gap-10 border-2">
         <div class="hero-content flex-col lg:flex-row">
-          <img src="./Resources/Images/11.png" class="w-[287px] md:w-[441px] h-[180px] md:h-[470px] rounded-lg" />
+          <img
+            src="./Resources/Images/11.png"
+            class="w-[287px] md:w-[441px] h-[180px] md:h-[470px] rounded-lg"
+          />
           <div>
             <!-- Q-1 -->
             <div class="collapse collapse-plus">
@@ -1702,6 +1708,82 @@
           </div>
         </div>
       </div>
+      <!-- Get in touch section -->
+      <div
+        class="mt-[40px] md:mt-[100px] mb-6 md:mb-12 p-[24px] md:p-[32px] text-center border-2 border-dashed border-r-0 border-l-0"
+      >
+        <h3
+          class="text-[22px] md:text-[36px] font-extrabold text-[#131318] pb-4 md:pb-6"
+        >
+          Get In Touch
+        </h3>
+        <p
+          class="text-[rgba(19,19,24,0.60)] font-medium md:text-base text-[14px]"
+        >
+          Understanding clients' questions is crucial; clarity, empathy, and
+          precision ensure effective <br />
+          communication and successful outcomes.
+        </p>
+      </div>
+      <!-- input and contact section -->
+      <section class="flex flex-col md:flex-row gap-6">
+        <!-- contact section -->
+        <div class="border-2 rounded-2xl p-6 md:p-[50px] h-[664px] md:h-[764px] w-[335px] md:w-[474px]">
+          <div
+            class="h-[184px] md:h-[216px] w-[287px] md:w-[374px] p-6 md:p-8 mb-4 md:mb-6 bg-[rgba(188,237,109,0.10)] rounded-2xl"
+          >
+            <img src="./Resources/Images/Group 1171275317.png" alt="" />
+            <p class="pt-6 text-[rgba(19,19,24,0.40)]">Phone Number:</p>
+            <h4 class="text-[18px] font-extrabold text-[#131318]">
+              (+62) 123-321-543
+            </h4>
+          </div>
+          <div
+            class="h-[184px] md:h-[216px] w-[287px] md:w-[374px] p-6 md:p-8 mb-4 md:mb-6 bg-[rgba(188,237,109,0.10)] rounded-2xl"
+          >
+            <img src="./Resources/Images/Group 1171275318.png" alt="" />
+            <p class="pt-6 text-[rgba(19,19,24,0.40)]">Email:</p>
+            <h4 class="text-[18px] font-extrabold text-[#131318]">
+              hockeys@support.com
+            </h4>
+          </div>
+          <div
+            class="h-[184px] md:h-[216px] w-[287px] md:w-[374px] p-6 md:p-8 bg-[rgba(188,237,109,0.10)] rounded-2xl"
+          >
+            <img src="./Resources/Images/Group 1171275321.png" alt="" />
+            <p class="pt-6 text-[rgba(19,19,24,0.40)]">Location:</p>
+            <h4 class="text-[18px] font-extrabold text-[#131318]">
+              152/1 Mohakhali Wireless Gate
+            </h4>
+          </div>
+        </div>
+        <!-- input section -->
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="flex flex-col col-span-1">
+            <label for="name" class="text-[#131318] font-[700] text-[20px] pb-4">Your Name</label>
+            <input type="text"  placeholder="Enter your full name" class="w-[324px] h-[64px] p-5 rounded-xl bg-[rgba(19,19,24,0.03)]">
+          </div>
+          <div class="flex flex-col col-span-1">
+            <label for="name" class="text-[#131318] font-[700] text-[20px] pb-4">Your Email</label>
+            <input type="text"  placeholder="Enter your email" class="w-[324px] h-[64px] p-5 rounded-xl bg-[rgba(19,19,24,0.03)]">
+          </div>
+          <div class="flex flex-col col-span-1">
+            <label for="name" class="text-[#131318] font-[700] text-[20px] pb-4">Subject</label>
+            <input type="text"  placeholder="Enter your subject" class="w-[324px] h-[64px] p-5 rounded-xl bg-[rgba(19,19,24,0.03)]">
+          </div>
+          <div class="flex flex-col col-span-1">
+            <label for="name" class="text-[#131318] font-[700] text-[20px] pb-4">Phone Number</label>
+            <input type="text"  placeholder="Enter your phone number" class="w-[324px] h-[64px] p-5 rounded-xl bg-[rgba(19,19,24,0.03)]">
+          </div>
+            <div class="flex flex-col col-span-1 md:col-span-2">
+              <label for="text" class="text-[#131318] font-[700] text-[20px] pb-4">Message</label>
+              <textarea name="message" id="text" class="w-[335px] md:w-auto h-[200px] md:h-[370px] bg-[rgba(19,19,24,0.03)] text-[rgba(19,19,24,0.30)] p-5 rounded-2xl">Write your message</textarea>
+            </div>
+            <button class="btn bg-pre-color text-white border-none w-[335px] md:w-[672px]">
+              Send Message
+            </button>
+        </form>
+      </section>
     </main>
     <footer></footer>
   </body>
